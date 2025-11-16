@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login | Nutriguide</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="login-layout">
+  <header>
+    <div class="top-bar">
+      
+      <div class="auth-links">
+        <a href="login.html">Login</a> | <a href="login.html">Sign Up</a>
+      </div>
+    </div>
+    <nav class="navbar" aria-label="Primary">
+      <!-- IMPORTANT: Use a direct image URL (ends with .png/.jpg). Replace the src below with your actual direct link from i.ibb.co -->
+      <img src="https://github.com/MadhulikaRacherla/Nutrionguide/blob/main/logo.jpg?raw=true" alt="Nutriguide logo" class="logo" />
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li><a href="login.html">login</a></li>
+        <li><a href="project.html">Project Work</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="login-container" aria-labelledby="login-title">
+      <!-- Left side image -->
+      <div class="login-image" role="img" aria-label="Healthy eating background">
+        <img
+          src="https://img.freepik.com/premium-photo/national-nutrition-week-wallpaper-healthy-eating-background-nutrition-awareness-balanced-diet_980716-17394.jpg?w=1060"
+          alt="Healthy eating background with fruits and balanced diet elements" />
+      </div>
+
+      <!-- Right side form -->
+      <div class="login-form-box">
+        <h1 id="login-title">Welcome Back 🙂</h1>
+        <p>To keep connected with us, please login with your personal information.</p>
+
+        <form class="login-form" action="#" method="post" novalidate>
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+
+          <div class="form-field">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="••••••••" required />
+          </div>
+
+          <div class="form-options">
+            <label class="remember">
+              <input type="checkbox" name="remember" />
+              Remember me
+            </label>
+            <a href="#" class="forgot">Forgot password?</a>
+          </div>
+
+          <button type="submit" class="btn">Login Now</button>
+          <a href="#" class="btn-outline">Create Account</a>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nutriguide. All rights reserved.</p>
+  </footer>
+</body>
+</html>
